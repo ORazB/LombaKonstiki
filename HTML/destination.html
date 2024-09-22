@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../CSS/about.css" />
+  <link rel="stylesheet" href="../CSS/style.css" />
+  <link rel="stylesheet" href="../CSS/landing.css" />
+
+  <!-- Font Awesome -->
+  <script src="https://kit.fontawesome.com/603a87c223.js" crossorigin="anonymous"></script>
+
+  <!-- Box Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css" />
+
+  <title>Tourfly | Destinations</title>
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="header__container container">
+      <a href="./index.html" class="logo">Tourfly <i class="fa-solid fa-plane-departure"></i></a>
+
+      <div class="nav__links">
+        <a target="_blank" href="./about.html" class="nav__item">Why Tourfly</a>
+        <a target="_blank" href="./destination.html" class="nav__item">Destinations</a>
+        <a target="_blank" href="./blogPage.html" class="nav__item">Blog</a>
+      </div>
+
+      <button class="book__button">Book a ride</button>
+    </div>
+  </header>
+
+  <section id="slider" class="slide">
+    <div class="slider__container">
+      <div class="slide__image active">
+        <div class="circle background">
+          <img src="../assets/img/gwk.jpg" />
+        </div>
+        <div class="circle large">
+          <img src="../assets/img/gwk.jpg" />
+        </div>
+        <div class="circle small">
+          <img src="../assets/img/gwk.jpg" />
+        </div>
+
+        <div class="slider__text">
+          <div class="place__text">
+            <h1>BALI</h1>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="region__text">
+            <h1>Garuda Wisnu</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide__image after-active">
+        <div class="circle background">
+          <img src="../assets/img/east-java.jpg" />
+        </div>
+        <div class="circle large">
+          <img src="../assets/img/east-java.jpg" />
+        </div>
+        <div class="circle small">
+          <img src="../assets/img/east-java.jpg" />
+        </div>
+
+        <div class="slider__text after-active">
+          <div class="place__text">
+            <h1>EAST JAVA</h1>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="region__text">
+            <h1>Bromo Mountain</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide__image after-active">
+        <div class="circle background">
+          <img src="../assets/img/papua.jpg" />
+        </div>
+        <div class="circle large">
+          <img src="../assets/img/papua.jpg" />
+        </div>
+        <div class="circle small">
+          <img src="../assets/img/papua.jpg" />
+        </div>
+
+        <div class="slider__text">
+          <div class="place__text">
+            <h1>PAPUA</h1>
+          </div>
+
+          <div class="line"></div>
+
+          <div class="region__text">
+            <h1>RAJA AMPAT</h1>
+          </div>
+        </div>
+      </div>
+
+      <div class="circle__dark"></div>
+
+      <div class="arrow__wrapper">
+        <button id="left-arrow"><i class="bx bx-left-arrow-alt"></i></button>
+        <div class="button__line"></div>
+        <button id="right-arrow">
+          <i class="bx bx-right-arrow-alt"></i>
+        </button>
+      </div>
+
+      <div class="see__more__wrapper">
+        <h3 class="scrolldown__text">Scroll down to see more</h3>
+        <h3 class="see__arrow"><i class="bx bx-down-arrow-alt"></i></h3>
+      </div>
+
+      <!-- <button style="position: absolute; z-index: 10000;" id="rotate-button">TEST</button> -->
+    </div>
+  </section>
+
+  <section class="hero__section" id="hero__section">
+    <div class="hero__container container">
+      <div class="section__text">
+        <h3 class="page__section section">Popular Destinations</h3>
+        <p class="page__description">
+          Ready for an exciting adventure? We have compiled the best
+          destinations that you must visit. From exotic beaches to historic
+          cities, discover places that will make your vacation memorable !
+        </p>
+      </div>
+
+      <div class="hero__image__wrapper grid">
+        <div class="hero__image__content">
+          <img src="../assets/img/nusapenida2.jpg" alt="example" />
+
+          <div class="hero__card__wrapper">
+            <div class="hero__card__content">
+              <h5 class="hero__main">Nusa Penida</h5>
+              <p class="hero__description">
+                A stunning island with dramatic cliffs, pristine beaches, and
+                clear waters, perfect for nature lovers.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__image__content">
+          <img src="../assets/img/tegalalang.jpg" alt="example" />
+
+          <div class="hero__card__wrapper">
+            <div class="hero__card__content">
+              <h5 class="hero__main">Tegalalang</h5>
+              <p class="hero__description">
+                Beautiful terraced rice fields near Ubud, offering serene
+                views and a glimpse of Bali’s natural charm.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__image__content">
+          <img src="../assets/img/kecakdance.jpg" alt="example" />
+
+          <div class="hero__card__wrapper">
+            <div class="hero__card__content">
+              <h5 class="hero__main">Kecak Dance</h5>
+              <p class="hero__description">
+                A mesmerizing sunset dance at Uluwatu Temple, with dramatic
+                ocean views and rhythmic chanting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="packages__section" class="packages__section">
+    <div class="packages__container container">
+      <div class="section__text">
+        <h3 class="page__section section">Available Packages</h3>
+        <p class="page__description">Looking for the ideal getaway? We’ve curated a selection of packages designed to fit every traveler. Whether you're after a thrilling experience or a peaceful retreat, explore options that will make your trip unforgettable!</p>
+      </div>
+
+      <div class="package__wrapper grid">
+        <div class="packages__content">
+
+          <div class="packages__image">
+            <img src="../assets/img/packages.jpg" alt="package">
+          </div>
+
+          <div class="packages__text">
+            <div class="packages__main__text">
+              <h1 class="packages__name">Family Package 12 Nights/13 Days</h1>
+
+              <div class="packages__rating">
+                <p>4.00</p>
+
+                <div class="packages__rating__stars">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h5>$1000.00</h5>
+              </div>
+
+              <p class="packages__description">
+                Dive deep into the heart of local cultures with our Cultural Immersion Package. This package is perfect
+                for travelers who want to experience the world through the eyes of the locals.
+              </p>
+
+              <div class="packages__availability">
+
+                <div class="packages__availability__content">
+                  <h5>Start Date: 20.11.2024</h5>
+                </div>
+
+                <div class="packages__availability__content">
+                  <h5>End Date: 20.11.2025</h5>
+                </div>
+
+              </div>
+
+              <div class="packages__button">
+                <button class="default__button">Book Now</button>
+
+
+                <button class="default__button">See Details</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="packages__content">
+
+          <div class="packages__image">
+            <img src="../assets/img/packages2.jpg" alt="package">
+          </div>
+
+          <div class="packages__text">
+            <div class="packages__main__text">
+              <h1 class="packages__name">Family Package 12 Nights/13 Days</h1>
+
+              <div class="packages__rating">
+                <p>4.00</p>
+
+                <div class="packages__rating__stars">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h5>$1000.00</h5>
+              </div>
+
+              <p class="packages__description">
+                Dive deep into the heart of local cultures with our Cultural Immersion Package. This package is perfect
+                for travelers who want to experience the world through the eyes of the locals.
+              </p>
+
+              <div class="packages__availability">
+
+                <div class="packages__availability__content">
+                  <h5>Start Date: 20.11.2024</h5>
+                </div>
+
+                <div class="packages__availability__content">
+                  <h5>End Date: 20.11.2025</h5>
+                </div>
+
+              </div>
+
+              <div class="packages__button">
+                <button class="default__button">Book Now</button>
+
+
+                <button class="default__button">See Details</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+        <div class="packages__content">
+
+          <div class="packages__image">
+            <img src="../assets/img/packages3.jpg" alt="package">
+          </div>
+
+          <div class="packages__text">
+            <div class="packages__main__text">
+              <h1 class="packages__name">Family Package 12 Nights/13 Days</h1>
+
+              <div class="packages__rating">
+                <p>4.00</p>
+
+                <div class="packages__rating__stars">
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bxs-star'></i>
+                  <i class='bx bx-star'></i>
+                </div>
+
+                <h5>$1000.00</h5>
+              </div>
+
+              <p class="packages__description">
+                Dive deep into the heart of local cultures with our Cultural Immersion Package. This package is perfect
+                for travelers who want to experience the world through the eyes of the locals.
+              </p>
+
+              <div class="packages__availability">
+
+                <div class="packages__availability__content">
+                  <h5>Start Date: 20.11.2024</h5>
+                </div>
+
+                <div class="packages__availability__content">
+                  <h5>End Date: 20.11.2025</h5>
+                </div>
+
+              </div>
+
+              <div class="packages__button">
+                <button class="default__button">Book Now</button>
+
+
+                <button class="default__button">See Details</button>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+
+  <section class="gallery__section" id="gallery__section">
+    <div class="gallery__container container">
+      <div class="section__text">
+        <h3 class="page__section section">Our Gallery</h3>
+        <p class="page__description">Get inspired by the moments we’ve captured! Browse through our collection of stunning photos from past trips, showcasing breathtaking landscapes, vibrant cultures, and unforgettable experiences waiting for you.</p>
+      </div>
+
+      <div class="gallery__wrapper grid">
+        <div class="gallery__content__right">
+
+          <img loading="lazy" class="item-right item1" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item2" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item3" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item4" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item5" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item6" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item7" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-right item8" src="../assets/img/bromo.jpeg" alt="">
+
+        </div>
+      </div>
+
+      <div class="gallery__wrapper grid">
+        <div class="gallery__content__left">
+
+          <img loading="lazy" class="item-left item1" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item2" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item3" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item4" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item5" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item6" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item7" src="../assets/img/bromo.jpeg" alt="">
+          <img loading="lazy" class="item-left item8" src="../assets/img/bromo.jpeg" alt="">
+
+        </div>
+      </div>
+
+
+    </div>
+
+
+  </section>
+
+  <footer class="footer" id="footer">
+    <div class="footer__container container">
+      <div class="footer__wrapper grid">
+
+        <div class="footer__content">
+          <a href="./index.html" class="logo">Tourfly <i class="fa-solid fa-plane-departure"></i></a>
+          <p class="footer__text">Explore the world with ease and convenience. Tourfly is your ultimate travel companion
+            for unforgettable journeys.</p>
+
+          <div class="footer__social">
+            <a href="#" class="social-icon"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+
+        </div>
+
+        <div class="footer__content">
+
+          <h4>Links</h4>
+
+          <ul class="footer__content__wrapper">
+            <li><a target="_blank" href="./destination.html">Destinations</a></li>
+            <li><a target="_blank" href="./about.html">Why Tourfly</a></li>
+            <li><a target="_blank" href="./blogPage.html">Blog</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__content footer__contact">
+          <h4>Contact Us</h4>
+
+          <div class="footer__content__wrapper">
+            <p>Email: <a href="mailto:support@tourfly.com">support@tourfly.com</a></p>
+            <p>Phone: +1 (800) 123-4567</p>
+          </div>
+        </div>
+
+        <div class="footer__content footer__about">
+          <h4>About Us</h4>
+
+          <div class="footer__content__wrapper">
+            <p>Tourfly is committed to providing the best travel experiences. Our team is dedicated to helping you
+              discover and book your next adventure seamlessly.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS -->
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+  <script src="../JS/app.js"></script>
+
+</body>
+
+</html>
